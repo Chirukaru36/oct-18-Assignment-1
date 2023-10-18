@@ -13,7 +13,7 @@ namespace Assignment_1
             try
             {
                 Employee employee = new Employee();
-                employee.EmpNo = 1234; 
+                employee.EmpNo = 0; 
                 employee.EmpName = "Rani"; 
                 employee.Salary = 10000.0;
                 employee.DeptNo = 0; 
@@ -21,6 +21,8 @@ namespace Assignment_1
             catch (ArgumentException ex)
             {
                 Console.WriteLine("Error: " + ex.Message);
+              
+
             }
 
             Console.ReadLine();
